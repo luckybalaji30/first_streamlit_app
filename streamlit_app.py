@@ -65,3 +65,6 @@ add_fruit_choice = streamlit.text_input('What fruit would like to add?')
 streamlit.write('Thanks for adding fruit ', add_fruit_choice)
 my_data_rows.append(add_fruit_choice)
 
+streamlit.header("Aftering adding user fruit")
+streamlit.dataframe(my_data_rows)
+
