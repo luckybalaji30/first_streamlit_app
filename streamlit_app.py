@@ -62,6 +62,6 @@ streamlit.dataframe(my_data_rows)
 
 #add user's favourite into list
 add_fruit_choice = streamlit.text_input('What fruit would like to add?')
-streamlit.write('User entered fruit', add_fruit_choice)
-my_data_row.append(add_fruit_choice)
+streamlit.write('Thanks for adding fruit ', add_fruit_choice)
+my_data_rows.append(add_fruit_choice)
 
