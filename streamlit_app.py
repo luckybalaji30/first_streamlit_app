@@ -4,6 +4,8 @@ import pandas
 
 import requests
 
+import snowflake.connector
+
 streamlit.title("🥣 My parents new Healthy Diner")
 
 streamlit.header('\N{flexed biceps} Breakfast of Champion Coders \N{flexed biceps}')
